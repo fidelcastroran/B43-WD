@@ -13,7 +13,7 @@ var Priya = new human("Priya", "Paris");
 //human  = {name: 'Priya', city: 'Paris}
 console.log(Priya.city);
 
-human.prototype = new robot("Priya", "France");
+human.prototype = new robot('Priya',"France");
 // robot {name: 'Priya', age: 10, country: "France"}
 
 var Priya = new human("Priya", "Paris");
@@ -36,8 +36,9 @@ Person.prototype.gender = "male";
 //prototype value of person
 console.log(Person.prototype);
 
+
 //inheriting the property of prototype
-console.log(person1.gender);
+console.log(person1);
 console.log(person2.gender);
 
 //Prototype is used to provide additional property to all the objects created

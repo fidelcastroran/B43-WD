@@ -9,9 +9,9 @@ const num1 = [1, 2, 3, 4];
 sum(...num1);
 //6
 
-var name = function (...args) {
-  console.log(args);
+var result = function (...argu) {
+  console.log(argu);
 };
 
-name(3); //[3]
-name(4, 5, 6); // [4, 5, 6]
+result(3); //[3]
+result(4, 5, 6); // [4, 5, 6]

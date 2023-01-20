@@ -1,15 +1,15 @@
 //es5
 
-// function language(name, country) {
-//   this.name = name;
-//   this.country = country;
-//   this.greet = () => {
-//     return `Say Hi to ${name}`;
-//   };
-// }
+function language(name, country) {
+  this.name = name;
+  this.country = country;
+  this.greet = () => {
+    return `Say Hi to ${name}`;
+  };
+}
 
-// var French = new language("French", "France");
-// console.log(French.greet());
+var French = new language("French", "France");
+console.log(French.greet());
 
 //es6
 

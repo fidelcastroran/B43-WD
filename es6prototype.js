@@ -6,7 +6,7 @@ class geo {
 }
 
 class language extends geo {
-  constructor(name, country) {
+  constructor(name,country) {
     super();
     this.name = name;
     this.country = country;

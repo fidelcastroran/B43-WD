@@ -3,20 +3,20 @@
 // used to apply the logic(add, mul, sub)
 
 var a = [2, 4, 5, 7, 2, 8, 3, 9];
-a.map((data) => {
+var b = a.map((data) => {
   return data * 2;
 });
-console.log(a);
+console.log(b);
 
 // [2, 4, 5, 7, 2, 8, 3, 9]
 //[4, 8, 10, 14, 4, 16, 6, 18]
 
 var a = [4, 8, 6, 23, 1, 5];
 
-a.map((abc) => {
+var b = a.map((abc) => {
   return `<p>${abc}</p>`;
 });
-console.log(a);
+console.log(b);
 //['<p>4</p>','<p>8</p>' , '<p>6</p>', '<p>23</p>', '<p>1</p>', '<p>5</p>']
 //<p>4</p>
 //<p>8</p>
@@ -31,21 +31,22 @@ console.log(a);
 
 var a = [2, 5, 3, 7, 8, 2, 7, 9, 3, 5, 6, 7, 12, 24, 28, 60];
 
-a.filter((data1) => {
+var b = a.filter((data1) => {
   return data1 > 20;
 });
+console.log(b)
 //[ 24, 28, 60]
 
 var b = [-1, 0, 1, 2];
-b.map((data) => {
+var c = b.map((data) => {
   return data * 2;
 });
-console.log(b); // [-2, 0, 2, 4]
+console.log(c); // [-2, 0, 2, 4]
 
-b.filter((data) => {
-  return console.log(data);
+var d = b.filter((data) => {
+  return data * 2;
 });
-
+console.log(d)
 //[-1, 1, 2]
 
 //filter odd values
